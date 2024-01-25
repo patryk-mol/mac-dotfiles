@@ -1,8 +1,9 @@
 # General
-alias dotfiles='/usr/bin/git --git-dir=$HOME/projects/mac-dotfiles/ --work-tree=$HOME'
+#alias git='run-ssh-agent; /usr/bin/git'
+alias dotfiles='git --git-dir=$HOME/Projects/mac-dotfiles/ --work-tree=$HOME'
 alias ls='exa -alh'
 alias lsl='exa -lh'
-alias maintnance='brew update %% brew upgrade'
+alias maintnance='brew update && brew upgrade'
 alias open='xdg-open'
 alias less='bat --paging=always'
 alias cat='bat --paging=never'
@@ -11,7 +12,6 @@ alias mkdir='mkdir -p'
 alias df='df -h'
 alias free='free -m'
 alias ..='up'
-alias ssh='run-ssh-agent; /usr/bin/ssh'
 alias vim='nvim'
 
 # Interactive mode for destructive operations
@@ -19,6 +19,10 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 alias ln='ln -i'
+
+# Audio conversion
+alias split-flac='shnsplit -f *.cue -t "%n. %t" -o flac *.flac'
+alias split-ape='shnsplit -f *.cue -t "%n. %t" -o flac *.ape'
 
 # Navigation
 up () {
@@ -49,4 +53,3 @@ run-ssh-agent () {
   export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
   ssh-add -l > /dev/null || ssh-add
 }
-

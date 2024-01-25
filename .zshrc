@@ -1,3 +1,6 @@
+# Load Homebrew env
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Load seperated config files
 for conf in "$HOME/.config/zsh/"*.zsh; do
   source "${conf}"
@@ -7,4 +10,3 @@ unset conf
 # Starship
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init zsh)"
-

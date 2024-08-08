@@ -1,10 +1,9 @@
 # General
 #alias git='run-ssh-agent; /usr/bin/git'
 alias dotfiles='git --git-dir=$HOME/Projects/mac-dotfiles/ --work-tree=$HOME'
-alias ls='exa -alh'
-alias lsl='exa -lh'
+alias ls='eza -alh'
+alias lsl='eza -lh'
 alias maintnance='brew update && brew upgrade'
-alias open='xdg-open'
 alias less='bat --paging=always'
 alias cat='bat --paging=never'
 alias ps='procs'

@@ -12,6 +12,7 @@ alias df='df -h'
 alias free='free -m'
 alias ..='up'
 alias vim='nvim'
+alias code='codium'
 
 # Interactive mode for destructive operations
 alias cp='cp -i'

@@ -25,6 +25,8 @@ filetype plugin indent on
 syntax on
 set cursorline
 set ttyfast
+
+" Theme
 let g:equinusocio_material_style = 'pure'
 colorscheme equinusocio_material
 

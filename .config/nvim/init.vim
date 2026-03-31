@@ -2,7 +2,7 @@
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'yunlingz/equinusocio-material.vim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', { 'branch': 'main', 'do': ':TSUpdate'}
 
 call plug#end()
 
@@ -32,10 +32,10 @@ colorscheme equinusocio_material
 
 " Lua config
 lua <<EOF
-require'nvim-treesitter.configs'.setup {
+require'nvim-treesitter'.setup {
+  ensure_installed = { "bash", "c", "cpp", "css", "dockerfile", "gitignore", "json", "lua", "python", "swift", "yaml", "javascript", "typescript", "rust", "vim", "vimdoc" },
   highlight = { enable = true },
   incremental_selection = { enable = true },
   textobjects = { enable = true },
 }
 EOF
-

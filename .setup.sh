@@ -18,6 +18,6 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 echo "\n\nAfter starting Neovim exectue following commands:\n"
 echo ": PlugInstall\n"
-echo ": TSInstall bash c cpp css dockerfile gitignore json python swift yaml javascript typescript rust\n"
+echo ": TSInstall bash c cpp css dockerfile gitignore json lua python swift yaml javascript typescript rust vim vimdoc\n"
 echo "\n"
 

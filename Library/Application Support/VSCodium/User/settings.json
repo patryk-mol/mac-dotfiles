@@ -1,0 +1,9 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "editor.cursorStyle": "block",
+    "workbench.colorTheme": "Dark Modern",
+    "editor.formatOnSave": true,
+    "git.confirmSync": false,
+    "git.autofetch": true
+}

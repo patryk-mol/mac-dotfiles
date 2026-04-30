@@ -5,5 +5,10 @@
     "workbench.colorTheme": "Dark Modern",
     "editor.formatOnSave": true,
     "git.confirmSync": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "terminal.external.osxExec": "iTerm2.app",
+    "editor.scrollbar.vertical": "visible",
+    "editor.rulers": [
+        160
+    ]
 }

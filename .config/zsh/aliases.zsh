@@ -3,7 +3,7 @@
 alias dotfiles='git --git-dir=$HOME/Projects/mac-dotfiles/ --work-tree=$HOME'
 alias ls='eza -alh'
 alias lsl='eza -lh'
-alias maintnance='brew update && brew upgrade'
+alias maintnance='~/Projects/mac-scripts/maintnance.sh'
 alias less='bat --paging=always'
 alias cat='bat --paging=never'
 alias ps='procs'

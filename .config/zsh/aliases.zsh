@@ -23,6 +23,7 @@ alias ln='ln -i'
 # Audio conversion
 alias split-flac='shnsplit -f *.cue -t "%n. %t" -o flac *.flac'
 alias split-ape='shnsplit -f *.cue -t "%n. %t" -o flac *.ape'
+alias wav-to-flac='shntool conv -o flac *.wav'
 
 # Navigation
 up () {

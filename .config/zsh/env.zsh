@@ -7,3 +7,5 @@ export SAVEHIST=$HISTSIZE
 export JAVA_HOME='/Applications/Android Studio.app/Contents/jbr/Contents/Home'
 export ANDROID_HOME=~/Library/Android/sdk
 export PATH=$PATH:$HOME/.cargo/bin:$HOME/Applications:$JAVA_HOME
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"

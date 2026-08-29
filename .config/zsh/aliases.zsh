@@ -13,6 +13,7 @@ alias free='free -m'
 alias ..='up'
 alias vim='nvim'
 alias code='codium'
+alias pip='pip3'
 
 # Interactive mode for destructive operations
 alias cp='cp -i'
